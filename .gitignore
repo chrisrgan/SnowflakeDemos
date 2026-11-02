@@ -218,3 +218,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets / credentials
+.env
+*.pem
+*.p8
+*.key
+connections.toml
+config.toml
+.snowflake/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/local data exports
+*.parquet
+data/raw/
+*.zip
